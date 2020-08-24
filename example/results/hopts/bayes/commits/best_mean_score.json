@@ -1,0 +1,10 @@
+{
+    "best_params": {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    "best_score": -0.19627693597123888,
+    "best_index": 18
+}

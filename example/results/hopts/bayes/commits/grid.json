@@ -1,0 +1,122 @@
+[
+    {
+        "als__factors": 100,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 313
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 28
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 30
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 28
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 393
+    },
+    {
+        "als__factors": 100,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 358
+    },
+    {
+        "als__factors": 100,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 36
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 293
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 351
+    },
+    {
+        "als__factors": 100,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 67
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 10
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 500
+    }
+]

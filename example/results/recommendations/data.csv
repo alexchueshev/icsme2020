@@ -1,0 +1,61 @@
+number|top-5|top-10
+2464|['ewencp' 'ymatsuda' 'guozhangwang' 'miguno' 'ijuma']|"['ewencp' 'ymatsuda' 'guozhangwang' 'miguno' 'ijuma' 'gwenshap' 'nan'
+ 'nan' 'nan' 'Ishiihara']"
+2466|['ijuma' 'guozhangwang' 'ewencp' 'miguno' 'ymatsuda']|"['ijuma' 'guozhangwang' 'ewencp' 'miguno' 'ymatsuda' 'gwenshap' 'junrao'
+ 'apovzner' 'hachikuji' 'granthenke']"
+2467|['junrao' 'ijuma' 'gwenshap' 'granthenke' 'hachikuji']|"['junrao' 'ijuma' 'gwenshap' 'granthenke' 'hachikuji' 'apovzner' 'dajac'
+ 'SinghAsDev' 'guozhangwang' 'ewencp']"
+2469|['ijuma' 'junrao' 'hachikuji' 'gwenshap' 'guozhangwang']|"['ijuma' 'junrao' 'hachikuji' 'gwenshap' 'guozhangwang' 'apovzner'
+ 'granthenke' 'ewencp' 'dajac' 'SinghAsDev']"
+2471|['ewencp' 'ijuma' 'gwenshap' 'guozhangwang' 'hachikuji']|"['ewencp' 'ijuma' 'gwenshap' 'guozhangwang' 'hachikuji' 'apovzner'
+ 'junrao' 'miguno' 'ymatsuda' 'granthenke']"
+2472|['ijuma' 'junrao' 'gwenshap' 'guozhangwang' 'granthenke']|"['ijuma' 'junrao' 'gwenshap' 'guozhangwang' 'granthenke' 'hachikuji'
+ 'apovzner' 'ewencp' 'dajac' 'xiaotao183']"
+2473|['ewencp' 'ijuma' 'hachikuji' 'granthenke' 'guozhangwang']|"['ewencp' 'ijuma' 'hachikuji' 'granthenke' 'guozhangwang' 'gwenshap'
+ 'junrao' 'apovzner' 'Ishiihara' 'dajac']"
+2474|['ijuma' 'ewencp' 'guozhangwang' 'junrao' 'gwenshap']|"['ijuma' 'ewencp' 'guozhangwang' 'junrao' 'gwenshap' 'hachikuji'
+ 'granthenke' 'apovzner' 'dajac' 'Ishiihara']"
+2475|['ijuma' 'junrao' 'gwenshap' 'hachikuji' 'granthenke']|"['ijuma' 'junrao' 'gwenshap' 'hachikuji' 'granthenke' 'guozhangwang'
+ 'apovzner' 'ewencp' 'dajac' 'SinghAsDev']"
+2476|['ijuma' 'junrao' 'hachikuji' 'gwenshap' 'guozhangwang']|"['ijuma' 'junrao' 'hachikuji' 'gwenshap' 'guozhangwang' 'granthenke'
+ 'apovzner' 'ewencp' 'dajac' 'SinghAsDev']"
+2477|['ewencp' 'guozhangwang' 'ijuma' 'ymatsuda' 'miguno']|"['ewencp' 'guozhangwang' 'ijuma' 'ymatsuda' 'miguno' 'gwenshap' 'nan'
+ 'junrao' 'nan' 'nan']"
+2478|['ewencp' 'guozhangwang' 'ijuma' 'miguno' 'hachikuji']|"['ewencp' 'guozhangwang' 'ijuma' 'miguno' 'hachikuji' 'Ishiihara'
+ 'ymatsuda' 'granders' 'junrao' 'granthenke']"
+2479|['ewencp' 'guozhangwang' 'Ishiihara' 'ymatsuda' 'ijuma']|"['ewencp' 'guozhangwang' 'Ishiihara' 'ymatsuda' 'ijuma' 'miguno'
+ 'hachikuji' 'gwenshap' 'granders' 'apovzner']"
+2480|['gwenshap' 'ijuma' 'guozhangwang' 'junrao' 'granthenke']|"['gwenshap' 'ijuma' 'guozhangwang' 'junrao' 'granthenke' 'ewencp' 'miguno'
+ 'ymatsuda' 'apovzner' 'hachikuji']"
+2482|['ijuma' 'gwenshap' 'junrao' 'guozhangwang' 'ewencp']|"['ijuma' 'gwenshap' 'junrao' 'guozhangwang' 'ewencp' 'granthenke' 'miguno'
+ 'ymatsuda' 'apovzner' 'hachikuji']"
+2483|['junrao' 'ijuma' 'hachikuji' 'apovzner' 'dajac']|"['junrao' 'ijuma' 'hachikuji' 'apovzner' 'dajac' 'granthenke' 'gwenshap'
+ 'guozhangwang' 'ewencp' 'xiaotao183']"
+2485|['ijuma' 'guozhangwang' 'junrao' 'miguno' 'ewencp']|"['ijuma' 'guozhangwang' 'junrao' 'miguno' 'ewencp' 'ymatsuda' 'gwenshap'
+ 'apovzner' 'granthenke' 'hachikuji']"
+2486|['ijuma' 'ewencp' 'guozhangwang' 'gwenshap' 'miguno']|"['ijuma' 'ewencp' 'guozhangwang' 'gwenshap' 'miguno' 'junrao' 'ymatsuda'
+ 'apovzner' 'hachikuji' 'granthenke']"
+2488|['gwenshap' 'ijuma' 'junrao' 'guozhangwang' 'granthenke']|"['gwenshap' 'ijuma' 'junrao' 'guozhangwang' 'granthenke' 'ewencp'
+ 'hachikuji' 'apovzner' 'miguno' 'ymatsuda']"
+2489|['gwenshap' 'ijuma' 'granthenke' 'junrao' 'hachikuji']|"['gwenshap' 'ijuma' 'granthenke' 'junrao' 'hachikuji' 'guozhangwang'
+ 'ewencp' 'apovzner' 'SinghAsDev' 'dajac']"
+2490|['ijuma' 'junrao' 'guozhangwang' 'ewencp' 'hachikuji']|"['ijuma' 'junrao' 'guozhangwang' 'ewencp' 'hachikuji' 'granthenke'
+ 'apovzner' 'gwenshap' 'dajac' 'SinghAsDev']"
+2491|['gwenshap' 'hachikuji' 'ijuma' 'guozhangwang' 'granthenke']|"['gwenshap' 'hachikuji' 'ijuma' 'guozhangwang' 'granthenke' 'ewencp'
+ 'junrao' 'apovzner' 'dajac' 'SinghAsDev']"
+2492|['ijuma' 'junrao' 'gwenshap' 'guozhangwang' 'ewencp']|"['ijuma' 'junrao' 'gwenshap' 'guozhangwang' 'ewencp' 'granthenke'
+ 'hachikuji' 'apovzner' 'dajac' 'miguno']"
+2493|['guozhangwang' 'ymatsuda' 'miguno' 'ewencp' 'ijuma']|"['guozhangwang' 'ymatsuda' 'miguno' 'ewencp' 'ijuma' 'gwenshap' 'apovzner'
+ 'norwood' 'nan' 'nan']"
+2494|['ewencp' 'guozhangwang' 'hachikuji' 'ijuma' 'granders']|"['ewencp' 'guozhangwang' 'hachikuji' 'ijuma' 'granders' 'apovzner'
+ 'norwood' 'bbejeck' 'junrao' 'miguno']"
+2496|['junrao' 'hachikuji' 'apovzner' 'ijuma' 'dajac']|"['junrao' 'hachikuji' 'apovzner' 'ijuma' 'dajac' 'granthenke' 'gwenshap'
+ 'xiaotao183' 'ewencp' 'guozhangwang']"
+2498|['gwenshap' 'ijuma' 'granthenke' 'guozhangwang' 'ewencp']|"['gwenshap' 'ijuma' 'granthenke' 'guozhangwang' 'ewencp' 'miguno'
+ 'ymatsuda' 'SinghAsDev' 'apovzner' 'junrao']"
+2499|['ijuma' 'gwenshap' 'guozhangwang' 'ewencp' 'apovzner']|"['ijuma' 'gwenshap' 'guozhangwang' 'ewencp' 'apovzner' 'hachikuji'
+ 'junrao' 'miguno' 'ymatsuda' 'granthenke']"
+2500|['ewencp' 'guozhangwang' 'ymatsuda' 'miguno' 'ijuma']|"['ewencp' 'guozhangwang' 'ymatsuda' 'miguno' 'ijuma' 'gwenshap' 'nan'
+ 'nan' 'nan' 'junrao']"
+2501|['ijuma' 'junrao' 'hachikuji' 'guozhangwang' 'apovzner']|"['ijuma' 'junrao' 'hachikuji' 'guozhangwang' 'apovzner' 'dajac'
+ 'granthenke' 'ewencp' 'gwenshap' 'SinghAsDev']"

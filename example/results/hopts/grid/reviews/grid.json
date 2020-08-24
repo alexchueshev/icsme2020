@@ -1,0 +1,38 @@
+[
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 5
+    },
+    {
+        "als__factors": 50,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 10
+    },
+    {
+        "als__factors": 100,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 5
+    },
+    {
+        "als__factors": 100,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 10
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 5
+    },
+    {
+        "als__factors": 150,
+        "als__iterations": 30,
+        "als__regularization": 100,
+        "transform__alpha": 10
+    }
+]

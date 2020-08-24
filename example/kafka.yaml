@@ -1,0 +1,130 @@
+projects:
+  kafka:
+    # === Grid search section === #
+    grid:
+      parameters:
+        n_splits: 5
+        min_samples: 5
+        test_size: .10
+      hyperparameters:
+        transform:
+          alpha: [5, 10]
+#          eps: [1e-1, 1e-2, 1e-3, 1e-4]
+        als:
+          factors: [50, 100, 150]
+          regularization: [100]
+          iterations: [30]
+      dataset:
+        path: './example/ds/train/reviews/data.csv'
+        cols: ['file', 'login', 'reviews']
+      results:
+        grid:
+          save: true
+          out: './example/results/hopts/grid/reviews/grid.json'
+        mean_score:
+          save: true
+          out: './example/results/hopts/grid/reviews/mean_score.json'
+        std_score:
+          save: true
+          out: './example/results/hopts/grid/reviews/std_score.json'
+        best_mean_score:
+          save: true
+          out: './example/results/hopts/grid/reviews/best_mean_score.json'
+        best_estimator:
+          save: false
+          out: './example/results/hopts/grid/reviews/best_estimator.pkl'
+
+    # === Bayes search section === #
+    bayes:
+      parameters:
+        n_splits: 5
+        min_samples: 5
+        test_size: .10
+      hyperparameters:
+        transform:
+          alpha: [10, 500]
+#          eps: [1e-1, 1e-2, 1e-3, 1e-4]
+        als:
+          factors: [50, 100, 150]
+          regularization: [100]
+          iterations: [30]
+      dataset:
+        path: './example/ds/train/commits/data.csv'
+        cols: ['file', 'login', 'commits']
+      results:
+        grid:
+          save: true
+          out: './example/results/hopts/bayes/commits/grid.json'
+        mean_score:
+          save: true
+          out: './example/results/hopts/bayes/commits/mean_score.json'
+        std_score:
+          save: true
+          out: './example/results/hopts/bayes/commits/std_score.json'
+        best_mean_score:
+          save: true
+          out: './example/results/hopts/bayes/commits/best_mean_score.json'
+        best_estimator:
+          save: false
+          out: './example/results/hopts/bayes/commits/best_estimator.pkl'
+
+    # === Train section === #
+    train:
+      hyperparameters:
+        transform:
+#          alpha: 500
+          alpha: 30
+        als:
+          factors:  50
+          iterations: 30
+          regularization: 100
+      dataset:
+#        path: './example/ds/train/commits/data.csv'
+#        cols: ['file', 'login', 'commits']
+        path: './example/ds/train/reviews/data.csv'
+        cols: ['file', 'login', 'reviews']
+      model:
+        save: true
+#        out: './example/models/commits/model.pkl'
+        out: './example/models/reviews/model.pkl'
+      mappings:
+        save: true
+#        out: './example/models/commits/mappings.pkl'
+        out: './example/models/reviews/mappings.pkl'
+
+    # === Build section === #
+    build:
+      models:
+        reviews:
+          als: './example/models/reviews/model.pkl'
+          mappings: './example/models/reviews/mappings.pkl'
+        commits:
+          als: './example/models/commits/model.pkl'
+          mappings: './example/models/reviews/mappings.pkl'
+      results:
+        save: true
+        out: './example/models/recommender/model.pkl'
+
+    # === Recommender section === #
+    recommend:
+      top_n: [5, 10]
+      model:
+        path: './example/models/recommender/model.pkl'
+      dataset:
+        path: './example/ds/test/data.csv'
+        cols: ['number', 'files']
+      results:
+        save: true
+        out: './example/results/recommendations/data.csv'
+
+    # === Metrics section === #
+    metrics:
+      top_n: [5, 10]
+      model:
+        path: './example/models/recommender/model.pkl'
+      dataset:
+        path: './example/ds/test/data.csv'
+        cols: ['number', 'files', 'reviewers']
+      results:
+        save: true
+        out: './example/results/metrics/data.csv'

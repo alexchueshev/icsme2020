@@ -1,0 +1,47 @@
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+venv
+pip-selfcheck.json
+
+# Resources
+res
+
+# Idea
+.idea
+
+# Ipynb cache
+.ipynb_checkpoints
+
+# Build
+dist/
+build/
+*.egg
+*.egg-info/
+
+# Flask
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+env*
+_mailinglist
+.tox/
+.cache/
+.pytest_cache/
+docs/_build/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover

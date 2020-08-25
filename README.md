@@ -15,7 +15,7 @@ commits within five large ASF projects and four Gerrit communities.
 _For download, please visit [10.5281/zenodo.3998437](https://doi.org/10.5281/zenodo.3998437)._
 
 ## Usage example
-In the current implementation, the recommender system supports 6 different commands:
+Set up `virtualenv`, Python >= 3.6. In the current implementation, the recommender system supports 6 different commands:
 - `gs`, `grid` - tune the ALS model hyperparameters using Grid search and cross-validation
 - `bs`, `bayes` - tune the ALS model hyperparameters using Bayesian optimization and cross-validation
 - `t`, `train` - train an ALS model over a predefined set of hyperparameters

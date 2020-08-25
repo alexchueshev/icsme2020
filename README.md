@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3998437.svg)](https://doi.org/10.5281/zenodo.3998437)
+
 ## Expanding the Number of Reviewers in Open-Source Projects by Recommending Appropriate Developers
 Aleksandr Chueshev, Julia Lawall, Reda Bendraou, and Tewfik Ziadi
 

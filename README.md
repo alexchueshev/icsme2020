@@ -1,5 +1,5 @@
 ## Expanding the Number of Reviewers in Open-Source Projects by Recommending Appropriate Developers
-Aleksandr Chueshev, Julia Lawall, Reda Bendarou, and Tewfik Ziadi
+Aleksandr Chueshev, Julia Lawall, Reda Bendraou, and Tewfik Ziadi
 
 The 36th IEEE International Conference on Software Maintenance 
 and Evolution (ICSME'2020), Adelaide, Australia
@@ -23,7 +23,7 @@ In the current implementation, the recommender system supports 6 different comma
 - `r`, `recommend` - recommend regular and new potential reviewers for a set of pull requests
 - `m`, `metrics` -  estimate the top@_k_ prediction accuracy and MRR
 
-Please check `example / kafka.yaml` and `run.sh` for the parameters supported by each command.
+Please check `example/kafka.yaml` and `run.sh` for the parameters supported by each command.
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
